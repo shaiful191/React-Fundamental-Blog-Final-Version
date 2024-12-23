@@ -1,6 +1,7 @@
 import Home from './components/Home'
 import Navber from './components/Navber'
-import OldHome from './components/OldHome'
+import OldHome from './LearningComponents/OldHome'
+import OldHome2 from './LearningComponents/OldHome2'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navber />
       <div className="content">
         {/* <OldHome/> */}
+        {/* <OldHome2/> */}
         <Home />
       </div>
     </div>
