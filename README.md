@@ -1,4 +1,4 @@
-# React Blog Project
+# React Fundamental-Blog Project
 
 ## Overview
 This is a simple React-based blogging platform that demonstrates CRUD operations. The application allows users to create, read, and delete blog posts. It uses **React Router** for navigation, **React Icons** for UI elements, and a custom **useFetch** hook to fetch data from a JSON server.
@@ -34,6 +34,8 @@ This is a simple React-based blogging platform that demonstrates CRUD operations
 │   │   └── Layout.js
 │   ├── AppRoutes.js
 │   └── App.js
+|   |__ index.css
+|
 ├── data/
 │   └── db.json
 ├── public/
@@ -50,7 +52,7 @@ This is a simple React-based blogging platform that demonstrates CRUD operations
 3. The blog post will appear on the Home page.
 
 ### Viewing Blog Details
-- Click on a blog title to view its details.
+- Click on a blog card to view its details.
 
 ### Deleting a Blog Post
 - In the blog details view, click the delete button to remove the blog.
@@ -84,3 +86,4 @@ Shaiful Islam
 
 ## License
 This project is licensed under the MIT License.
+Thank you for checking out my project! Feel free to contribute or reach out for any inquiries. 🚀
