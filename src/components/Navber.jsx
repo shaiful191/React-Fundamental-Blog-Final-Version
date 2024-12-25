@@ -5,7 +5,7 @@ const Navber = () => {
 
   const linkBtnStyle = {
     color: 'white',
-    backgroundColor: '#f1356d',
+    backgroundColor: '#f97316',
     borderRadius: '8px',
   };
   

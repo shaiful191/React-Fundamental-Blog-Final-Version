@@ -1,23 +1,20 @@
 import React from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Layout from './layouts/layout'
 import Create from './components/Create'
 import BlogDetails from './components/BlogDetails'
+import NotFound from './components/NotFound'
 
 const AppRoutes = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
-        <Route path="/create" element={<Layout><Create/></Layout>}/>
-        <Route path="/blogs/:id" element={<Layout><BlogDetails/></Layout>}/>
+        <Route path="/create" element={<Layout><Create /></Layout>} />
+        <Route path="/blogs/:id" element={<Layout><BlogDetails /></Layout>} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-
-      {/* <Routes>
-        
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes> */}
     </>
   )
 }
