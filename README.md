@@ -70,16 +70,20 @@ The project uses a responsive design with modern CSS styling. Fonts are imported
 
 ## Screenshots
 - Home Page
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a6df3e2a-70bc-4e2d-9af1-2e87fe0d45d2)
+
 - Blog Details Page
 ![image](https://github.com/user-attachments/assets/64b2563e-41ef-4e6e-bede-9697919501a3)
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/f242e096-1eb6-46bc-9ccb-824e8023f0d1)
+
 
 - Add Blog Page
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/56b5a074-6027-4224-827f-76696dd9ff9e)
+
 
 - Not Found Page
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/de11e015-3de3-40aa-bc75-33ced223f0e8)
+
 
 ## Author
 Shaiful Islam
