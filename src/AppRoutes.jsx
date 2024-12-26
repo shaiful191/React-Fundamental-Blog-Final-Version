@@ -12,7 +12,8 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/create" element={<Layout><Create /></Layout>} />
-        <Route path="/blogs/:id" element={<Layout><BlogDetails /></Layout>} />
+        {/* Dynamic routing : */}
+        <Route path="/blogs/:id" element={<Layout><BlogDetails /></Layout>} /> 
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
