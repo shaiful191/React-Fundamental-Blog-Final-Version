@@ -72,6 +72,7 @@ The project uses a responsive design with modern CSS styling. Fonts are imported
 - Home Page
 ![alt text](image.png)
 - Blog Details Page
+![image](https://github.com/user-attachments/assets/64b2563e-41ef-4e6e-bede-9697919501a3)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
