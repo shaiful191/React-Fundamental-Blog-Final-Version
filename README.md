@@ -21,6 +21,7 @@ The app demonstrates the implementation of various React concepts, including:
 - Performing **CRUD operations** (Create, Read, Delete)
 - Managing side effects with the **useEffect Hook**
 - Using conditional rendering for dynamic UI updates
+- - Building and handling **Forms** for user input using controlled inputs
 - Leveraging **React Icons** for UI enhancements
 - Using JSON Server(for testing APIs)
 
