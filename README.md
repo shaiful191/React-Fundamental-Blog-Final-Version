@@ -1,4 +1,4 @@
-# React Fundamental-Blog Project
+# React Fundamental-Blog Project (Final Version)
 
 ## Overview
 This is a simple React-based blogging platform that demonstrates CRUD operations. The application allows users to create, read, and delete blog posts. It uses **React Router** for navigation, **React Icons** for UI elements, and a custom **useFetch** hook to fetch data from a JSON server.
@@ -10,11 +10,20 @@ This is a simple React-based blogging platform that demonstrates CRUD operations
 - **Delete Blog**: Remove a blog post from the database.
 - **404 Page**: Custom page for undefined routes.
 
-## Tech Stack
-- **Frontend**: React.js
-- **Routing**: React Router (v7.1.1)
-- **Icons**: React Icons (v5.4.0)
-- **Backend**: JSON Server (for testing APIs)
+## Purpose
+
+The app demonstrates the implementation of various React concepts, including:
+ 
+- Navigating between pages using **React Router**
+- Working with dynamic routes and **URL Parameters**
+- Fetching data from APIs using **fetch API**
+- Creating reusable **Custom Hooks** like `useFetch`
+- Performing **CRUD operations** (Create, Read, Delete)
+- Managing side effects with the **useEffect Hook**
+- Using conditional rendering for dynamic UI updates
+- Leveraging **React Icons** for UI enhancements
+- Using JSON Server(for testing APIs)
+
 
 ## Project Structure
 
