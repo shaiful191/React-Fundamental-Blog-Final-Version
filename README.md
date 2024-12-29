@@ -80,7 +80,8 @@ The project uses a responsive design with modern CSS styling. Fonts are imported
 
 ## Screenshots
 - Home Page
-![image](https://github.com/user-attachments/assets/a6df3e2a-70bc-4e2d-9af1-2e87fe0d45d2)
+![image](https://github.com/user-attachments/assets/a1280357-abaa-4117-a61b-68de7aa1b940)
+
 
 - Blog Details Page
 ![image](https://github.com/user-attachments/assets/64b2563e-41ef-4e6e-bede-9697919501a3)
