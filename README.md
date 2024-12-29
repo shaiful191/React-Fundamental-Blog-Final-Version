@@ -1,4 +1,4 @@
-# React Fundamental-Blog Project (Final Version)
+# React Fundamental Blog Project (Version 2)
 
 ## Overview
 This is a simple React-based blogging platform that demonstrates CRUD operations. The application allows users to create, read, and delete blog posts. It uses **React Router** for navigation, **React Icons** for UI elements, and a custom **useFetch** hook to fetch data from a JSON server.
