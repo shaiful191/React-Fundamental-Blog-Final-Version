@@ -1,4 +1,4 @@
-# React Fundamental-Blog Project (Final Version)
+# React Fundamental Blog Project (Version 2)
 
 ## Overview
 This is a simple React-based blogging platform that demonstrates CRUD operations. The application allows users to create, read, and delete blog posts. It uses **React Router** for navigation, **React Icons** for UI elements, and a custom **useFetch** hook to fetch data from a JSON server.
@@ -21,7 +21,7 @@ The app demonstrates the implementation of various React concepts, including:
 - Performing **CRUD operations** (Create, Read, Delete)
 - Managing side effects with the **useEffect Hook**
 - Using conditional rendering for dynamic UI updates
-- Building and handling **Forms** for user input using controlled inputs
+- Building and handling **Forms** for user input using useRef()
 - Leveraging **React Icons** for UI enhancements
 - Using JSON Server(for testing APIs)
 
@@ -80,7 +80,8 @@ The project uses a responsive design with modern CSS styling. Fonts are imported
 
 ## Screenshots
 - Home Page
-![image](https://github.com/user-attachments/assets/a6df3e2a-70bc-4e2d-9af1-2e87fe0d45d2)
+![image](https://github.com/user-attachments/assets/a1280357-abaa-4117-a61b-68de7aa1b940)
+
 
 - Blog Details Page
 ![image](https://github.com/user-attachments/assets/64b2563e-41ef-4e6e-bede-9697919501a3)
