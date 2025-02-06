@@ -5,44 +5,44 @@ const useFetch = (url) => {
   const [isLoaded, setIsLoaded] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-
-    const abortController = new AbortController();
-
-    fetch(url, { signal: abortController.signal })
-      .then(res => {
-        if (!res.ok) {
-          throw new Error("Could not fetch the data for that resource");
-        }
-        return res.json(); // Parse JSON response
-      })
-      .then(data => {
-        // console.log(data);
-        setData(data);
-        setIsLoaded(false);
-        setError(null);
-      })
-      .catch(err => {
-        if (err.name === 'AbortError') {
-          console.log('fetch aborted');
-        } else {
-          setIsLoaded(false);
-          setError(err.message);
-        }
-      });
-
-    //cleanUP
-    return () => {
-      abortController.abort();
-    };
+const fetchData = async (abortController) => {
+  try {
+    const res = await fetch(url, { signal: abortController.signal });
+    if (!res.ok) {
+      throw new Error("Could not fetch the data for that resource");
+    }
+    const data = await res.json(); // Parse JSON response
+    setData(data);
+    setIsLoaded(false);
+    setError(null);
+  } catch (err) {
+    if (err.name === 'AbortError') {
+      console.log('fetch aborted');
+    } else {
+      setIsLoaded(false);
+      setError(err.message);
+    }
+  }
+};
 
 
-  }, [url]);
+useEffect(() => {
+  const abortController = new AbortController();
 
-  return { data, isLoaded, error };
+  fetchData(abortController);
+
+  // Clean-up function
+  return () => {
+    abortController.abort();
+  };
+
+}, [url]);
+
+return { data, isLoaded, error };
 }
 
 export default useFetch
+
 
 // json-server data/db.json run command->
 // npx json-server --watch data/db.json --port 8000
