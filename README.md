@@ -24,6 +24,7 @@ The app demonstrates the implementation of various React concepts, including:
 - Building and handling **Forms** using controlled inputs
 - Leveraging **React Icons** for UI enhancements
 - Using JSON Server(for testing APIs)
+- Applied async/await for handling **asynchronous tasks**, such as API calls.
 
 
 ## Project Structure
